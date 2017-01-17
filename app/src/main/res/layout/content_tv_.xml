@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.abhinav_pc.moviedb.TV_Activity"
+    tools:showIn="@layout/activity_tv_">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.abhinav_pc.moviedb.MovieActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#3D3B3F">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/TV_title"
+                android:textSize="30dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
+                android:background="#C5283D"
+                android:textColor="#FDFFFC"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Tv_rating"
+                android:textSize="17dp"
+                android:gravity="center_horizontal"
+                android:textColor="#FDFFFC" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Tv_popularity"
+                android:textSize="17dp"
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:textColor="#C5283D"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/TV_Votecount"
+                android:textSize="17dp"
+                android:gravity="center_horizontal"
+                android:textColor="#FDFFFC"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Tv_first_air_date"
+                android:textSize="17dp"
+                android:gravity="center_horizontal"
+                android:textColor="#C5283D"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Tv_genre"
+                android:textSize="17dp"
+                android:gravity="center_horizontal"
+                android:textColor="#FDFFFC"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/Tv_productions"
+                android:textColor="#C5283D"
+                />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Created By"
+                android:textSize="22dp"
+                android:textColor="#FDFFFC"
+                android:background="#C5283D"
+                android:gravity="center_horizontal"/>
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/Tv_slider_creator"
+                android:layout_width="match_parent"
+                android:background="#3D3B3F"
+                android:layout_height="200dp"
+                />
+            <com.daimajia.slider.library.Indicators.PagerIndicator
+                android:id="@+id/Tv_custom_indicator_creator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3D3B3F"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Seasons"
+                android:gravity="center_horizontal"
+                android:textSize="22dp"
+                android:background="#C5283D"
+                android:textColor="#FDFFFC"/>
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/Tv_slider_season"
+                android:layout_width="match_parent"
+                android:background="#3D3B3F"
+                android:layout_height="200dp"
+                />
+            <com.daimajia.slider.library.Indicators.PagerIndicator
+                android:id="@+id/Tv_custom_indicator_season"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3D3B3F"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Overview"
+                android:gravity="center_horizontal"
+                android:textSize="22dp"
+                android:textColor="#FDFFFC"
+                android:background="#C5283D"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/Tv_Overview"
+                android:textSize="17dp"
+                android:textColor="#FDFFFC"
+                android:layout_marginBottom="40dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
