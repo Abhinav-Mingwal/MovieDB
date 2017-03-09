@@ -5,7 +5,6 @@ Movie DB uses TMDb API which has large collection of information about movies, T
 
 ![Alt text](/Sceenshot3.png?raw=true "Screenshot 3")    ![Alt text](/Sceenshot4.png?raw=true "Screenshot 4")
 
-![Alt text](/Sceenshot5.png?raw=true "Screenshot 5")    ![Alt text](/Sceenshot6.png?raw=true "Screenshot 6")
-
+![Alt text](/Sceenshot5.png?raw=true "Screenshot 5") 
 
 
